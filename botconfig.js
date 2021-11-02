@@ -29,9 +29,9 @@ module.exports = {
   Lavalink: {
     id: "Main",
     host: "https://lavalinkforbot250.herokuapp.com",
-    port: 443, // The port that lavalink is listening to. This must be a number!
+    port: 80, // The port that lavalink is listening to. This must be a number!
     pass: "youshallnotpass",
-    secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
+    secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
   //Please go to https://developer.spotify.com/dashboard/
